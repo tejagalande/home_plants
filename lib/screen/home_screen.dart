@@ -14,11 +14,7 @@ class HomeScreen extends StatelessWidget {
 
 class Home extends StatefulWidget {
   
-  
 
-  late BuildContext lastContext;
-
-  Home({super.key, required this.lastContext});
 
   @override
   State<Home> createState() => _HomeState();
